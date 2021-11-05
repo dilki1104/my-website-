@@ -8,9 +8,16 @@
 </head>
 <body>
     <h1>Colombo life</h1>
+
+    <div x-data="{ open: false }">
+        <button @click="open = true">Click here!!</button>
+        <span x-show="open">
     <p>Colombo, city, executive and judicial capital of Sri Lanka. (Sri Jayawardenepura Kotte, a Colombo suburb, is the legislative capital.) Situated on the west coast of the island, just south of the Kelani River, Colombo is a principal port of the Indian Ocean. 
         It has one of the largest artificial harbours in the world and handles the majority of Sri Lanka’s foreign trade.
     </p>
+
+    </span>
+    </div>
     
 </body>
 </html>
